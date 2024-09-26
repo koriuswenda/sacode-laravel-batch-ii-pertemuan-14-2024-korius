@@ -61,25 +61,25 @@
                 <textarea class="form-control" id="alamat" rows="3"></textarea>
             </div>
         </div>
- 
-    <div class="mb-3 row mt-4">
-        <div class="col">
-            <button type="button" class="btn btn-primary">
-                <i class="fa-solid fa-floppy-disk"></i>
-                Tambahkan
-            </button>
-            <a href="index.html" type="button" class="btn btn-danger">
-                <i class="fa fa-reply"></i>
-                Batal
-            </a>
+
+        <div class="mb-3 row mt-4">
+            <div class="col">
+                <button type="button" class="btn btn-primary">
+                    <i class="fa-solid fa-floppy-disk"></i>
+                    Tambahkan
+                </button>
+                <a href="index.php" type="button" class="btn btn-danger">
+                    <i class="fa fa-reply"></i>
+                    Batal
+                </a>
+            </div>
         </div>
-    </div>
-    
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
