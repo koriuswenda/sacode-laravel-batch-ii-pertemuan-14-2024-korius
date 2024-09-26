@@ -1,11 +1,9 @@
 <?php
-
 $host = "localhost";
 $username = "root";
-$password = "  ";
+$password = "";
 $database = "db_sekolah";
 
+$koneksi = mysqli_connect($host, $username, $password, $database);
 
-$sconn = mysqli_connect($host, $username, $password, $db);
-
-mysqli_select_db($sconn, $db);
+mysqli_select_db($koneksi, $database);
